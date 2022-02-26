@@ -1,7 +1,7 @@
 # Proyecto Abogabot
 ## Aquellos que no mencionan nada de admin son las vistas de los clientes
 ## Aquellas vistas que tienen en el nombre admin son para el usuario administrador
-## Estaas intefaces modeladas fueron hechas en figma. 
+## Estas intefaces modeladas fueron hechas en figma. 
 
 
 
