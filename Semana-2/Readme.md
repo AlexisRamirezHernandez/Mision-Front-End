@@ -1,1 +1,2 @@
-# Proximamente 4/Marzo/2022
+# Aqui encontraras los ejercicios correspondientes a la segunda semana 
+# Contenido CSS
