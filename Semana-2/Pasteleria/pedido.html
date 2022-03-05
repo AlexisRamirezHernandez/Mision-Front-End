@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Informacion</title>
+    <link rel="stylesheet" href="/estilos/estilos.css" />
+    <link rel="stylesheet" href="/estilos/estilos-pedidos.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="admin.html">Admin</a></li>
+          <li><a href="index.html">Menu</a></li>
+          <li><a href="pedido.html">Realiza un pedido</a></ul>
+        </ul>
+      </nav>
+      <div style="text-align: center;">      
+        <img src="/img/img2.png" width="100%">
+      </div>
+    </header>
+    <div class="contendedor-2">
+      <h3 style="text-align: center; font-size: 25px; margin-bottom: 10px;">Proporciona tus datos para finalizar</h3>
+      <!-- El formulario debe de contener los datos de contacto del cliente que son 
+        Nombre, Teléfono, Correo Electrónico, Descripción general del pastel y la selección de sabores y adornos. -->
+      <form action="">
+        <div class="datos">
+          <div class="campo">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="" required />
+          </div>
+          <div class="campo">
+            <label for="cel">Telefono</label>
+            <input type="tel" maxlength="10" required />
+          </div>
+          <div class="campo">
+            <label for="correo">Correo Electronico</label>
+          <input type="email" name="correo" required />
+          </div>
+          <div class="campo"> <label for="pastel">Selecciona un Pastel</label>
+            <select name="pastel" id="">
+              <option value="1">Pastel Luna $145.00 MXN</option>
+              <option value="2">Pastel Galaxia $175.00 MXN</option>
+              <option value="2">Pastel Jupiter $185.00 MXN</option>
+              <option value="2">Pastel Tierra $200.00 MXN</option></select>
+          </div>
+          <div class="campo">
+            <p style="margin-top:20px; font-size: 30px;">Total: $0.00 MXN</p>
+          </div>
+        </div>
+       
+        <div class="datos-tabla">
+          <h4>Marca algun relleno</h4>
+
+          <table>
+            <tr>
+              <th>Relleno/Topin</th>
+              <th>Precio</th>
+              <th>Agregar</th>
+            </tr>
+            <tr>
+              <td>Chochitos</td>
+              <td>10.00 MXN</td>
+              <td><input type="checkbox" name="agregar" /></td>
+            </tr>
+            <tr>
+              <td>Chocolate blanco</td>
+              <td>15.00 MXN</td>
+              <td><input type="checkbox" name="agregar" /></td>
+            </tr>
+            <tr>
+              <td>Frutos Azules</td>
+              <td>25.00 MXN</td>
+              <td><input type="checkbox" name="agregar" /></td>
+            </tr>
+            <tr>
+              <td>Rebanadas de Fresa</td>
+              <td>25.00 MXN</td>
+              <td><input type="checkbox" name="agregar" /></td>
+            </tr>
+            <tr>
+              <td>Chocolate Amargo</td>
+              <td>18.00 MXN</td>
+              <td><input type="checkbox" name="agregar" /></td>
+            </tr>
+            <tr>
+              <td>Durazno</td>
+              <td>23.00 MXN</td>
+              <td><input type="checkbox" name="agregar" /></td>
+            </tr>
+          </table>
+        </div>
+        <div class="boton">
+          <input type="submit" value="Ordenar" />
+
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

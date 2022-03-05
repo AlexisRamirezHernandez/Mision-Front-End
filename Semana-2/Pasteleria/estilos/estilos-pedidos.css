@@ -1,0 +1,83 @@
+/* form {
+  width: 100%;
+  justify-content: center;
+} */
+/* form .campo {
+  padding: 10px;
+ 
+} */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.contendedor-2 {
+  width: 90%;
+  /* background-color: blueviolet; */
+  display: inline-block;
+  margin-left: 5%;
+  align-items: center;
+}
+.datos {
+  margin: 40px;
+  float: left;
+  width: 40%;
+}
+.datos-tabla {
+  float: right;
+  margin-right: 50px;
+  justify-content: center;
+  text-align: center;
+  margin-right: 10%;
+}
+.boton {
+  padding-top: 25%;
+  padding-left: 45%;
+  padding-bottom: 20px;
+}
+.boton input[type="submit"] {
+  margin: auto;
+  background: #3895ea;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 15px 40px;
+}
+.datos .campo {
+  padding: 5px;
+  /* display: inline-block; */
+}
+.datos .campo input[type="text"],
+.datos .campo input[type="email"],
+.datos .campo input[type="tel"],
+.datos .campo select {
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 20px;
+  /* color: #a4a4a4; */
+}
+table,
+th,
+td {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+table {
+  border-collapse: collapse;
+  width: 500px;
+  text-align: center;
+}
+
+th,
+td {
+  padding: 10px 20px;
+}
+
+th {
+  background: #009ddc;
+  color: #fff;
+}
+
+tr:hover {
+  background: #e5e5e5;
+}

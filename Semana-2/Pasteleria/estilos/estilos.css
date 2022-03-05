@@ -1,0 +1,102 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #fef9de;
+}
+
+ul {
+  list-style: none;
+  background-color: #d291bc;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  float: right;
+}
+li a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: azure;
+  text-align: center;
+}
+li a:hover {
+  background-color: #8e5fbd;
+}
+
+.contenedor {
+  justify-content: center;
+  text-align: center;
+}
+.datos {
+  margin-left: 25%;
+  margin-bottom: 10px;
+  width: 50%;
+  display: inline-block;
+}
+.datos .direccion {
+  float: left;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+.datos .horarios {
+  float: right;
+  margin-right: 25px;
+}
+.card {
+  margin: 20px;
+  background-color: white;
+  display: inline-block;
+  margin-right: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 20%;
+}
+.container {
+  padding: 2px 16px;
+}
+.rellenos {
+  margin-left: 25%;
+  width: 50%;
+  border: 1px solid black;
+  background-color: #fff;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  /* background-color: #d291bc; */
+}
+.rellenos .relleno {
+  padding: 10px;
+}
+.alimento {
+  font-size: 20px;
+}
+
+.ubicacion {
+  background: #fff;
+  padding: 70px 0;
+}
+.copirigh {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+.btn {
+  color: #fff;
+  background: #246eb9;
+  display: inline-block;
+  font-size: 16px;
+  padding: 15px 20px;
+  text-decoration: none;
+  margin: 10px 10px;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,85 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fef9de;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  table-layout: fixed;
+  width: 75%;
+}
+
+th,
+td {
+  padding: 10px;
+  width: 200px;
+}
+
+th {
+  background: #009ddc;
+  color: #fff;
+}
+
+tr:hover {
+  background: #e5e5e5;
+}
+
+.wrapper .sidebar {
+  background: #957dad;
+  position: fixed;
+  margin-top: 173px;
+  width: 225px;
+  height: 100%;
+}
+
+.wrapper .sidebar ul li a {
+  display: block;
+  padding: 30px 30px;
+  border-bottom: 1px solid #957dad;
+  color: rgb(241, 237, 237);
+  font-size: 16px;
+  position: relative;
+}
+
+.wrapper .sidebar ul li a:hover {
+  color: #0c7db1;
+  background: white;
+  border-right: 2px solid rgb(5, 68, 104);
+}
+.contenedor {
+  margin-left: 17%;
+  display: inline-block;
+}
+.tabla-rellenos {
+  float: right;
+  margin: 20px;
+  margin-left: 350px;
+}
+.tabla-pasteles {
+  margin: 20px;
+  float: left;
+}
+input[type="button"] {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #3895ea;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 7px 10px;
+}
