@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center; color: azure">Pokedex</h1>
+    <div class="contenedor">
+      <div class="encabezado">
+        <div class="circulo-azul"></div>
+        <div class="circulos-pequenios">
+          <div class="color-rojo"></div>
+          <div class="color-amarillo"></div>
+          <div class="color-verde"></div>
+        </div>
+      </div>
+      <br />
+      <div class="display">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/5/51/Pokebola-pokeball-png-0.png"
+          height="150px"
+          id="pokeimg"
+        />
+        <div class="informacion-pokemon">
+          <p class="titulo-info"><b>Nombre:</b></p>
+          <p class="descripcion-info" id="name"></p>
+          <br />
+          <p class="titulo-info"><b>Tipo:</b></p>
+          <p class="descripcion-info" id="tipo"></p>
+          <br />
+          <p class="titulo-info"><b>Estadisticas:</b></p>
+          <p class="descripcion-info" id="estadisticas"></p>
+          <br />
+          <p class="titulo-info"><b>Movimientos:</b></p>
+          <p class="descripcion-info" id="movimientos"></p>
+
+          <br />
+        </div>
+      </div>
+      <div class="accesorios">
+        <div class="circulo-azul-f"></div>
+        <div class="ovalo-verde"></div>
+        <div class="ovalo-amarillo"></div>
+      </div>
+
+      <div class="buscador">
+        <input
+          type="text"
+          placeholder="Pikachu"
+          id="pokename"
+          name="pokename"
+        />
+        <button onclick="buscar_pokemon()">Buscar</button>
+      </div>
+    </div>
+    <h2 style="text-align: center; color: azure">
+      Autor: Oscar Alexis Ramirez Hernandez
+    </h2>
+    <h3 style="text-align: center; color: azure">
+      Power by LaunchX hosted in Github
+    </h3>
+    <script src="index.js"></script>
+  </body>
+</html>
